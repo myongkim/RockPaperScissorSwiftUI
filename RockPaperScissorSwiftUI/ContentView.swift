@@ -8,9 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    
+    var winLose = false
+    let win = "which one Wins?"
+    let lose = "Which one Lose?"
+    @State var score = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            Text("Computer has played..")
+            ComputerPlayImageView()
+            Text(winLose ? win : lose)
+            WinLoseButtonView()
+            Spacer()
+            Text("Score")
+            Text("\(score)")
+            Spacer()
+            
+        }
+        
+       
     }
 }
 

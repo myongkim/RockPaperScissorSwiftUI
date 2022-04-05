@@ -11,6 +11,8 @@
 		1C77732427FCA90900209123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77732327FCA90900209123 /* ContentView.swift */; };
 		1C77732627FCA90B00209123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C77732527FCA90B00209123 /* Assets.xcassets */; };
 		1C77732927FCA90B00209123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C77732827FCA90B00209123 /* Preview Assets.xcassets */; };
+		1C77733027FCB4DD00209123 /* ComputerPlayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77732F27FCB4DC00209123 /* ComputerPlayImageView.swift */; };
+		1C77733227FCB6B900209123 /* WinLoseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77733127FCB6B900209123 /* WinLoseButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1C77732327FCA90900209123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C77732527FCA90B00209123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C77732827FCA90B00209123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C77732F27FCB4DC00209123 /* ComputerPlayImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerPlayImageView.swift; sourceTree = "<group>"; };
+		1C77733127FCB6B900209123 /* WinLoseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLoseButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				1C77732127FCA90900209123 /* RockPaperScissorSwiftUIApp.swift */,
 				1C77732327FCA90900209123 /* ContentView.swift */,
+				1C77733127FCB6B900209123 /* WinLoseButtonView.swift */,
+				1C77732F27FCB4DC00209123 /* ComputerPlayImageView.swift */,
 				1C77732527FCA90B00209123 /* Assets.xcassets */,
 				1C77732727FCA90B00209123 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C77732427FCA90900209123 /* ContentView.swift in Sources */,
+				1C77733027FCB4DD00209123 /* ComputerPlayImageView.swift in Sources */,
+				1C77733227FCB6B900209123 /* WinLoseButtonView.swift in Sources */,
 				1C77732227FCA90900209123 /* RockPaperScissorSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
